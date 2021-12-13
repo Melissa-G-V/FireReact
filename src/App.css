@@ -1,6 +1,51 @@
 .App {
   text-align: center;
 }
+i{
+  color: #fff;
+  size: 10px;
+}
+
+list-group-item{
+  color: black;
+  background-color: aqua;
+}
+
+form-control{
+  font-size: medium;
+  background-color: red;
+}
+select option {
+  margin: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+select option[value=""] {
+  background: rgba(92, 52, 1, 0.754);
+}
+
+.fa-trash {
+  color: black;
+}
+select option[value="Ano(s)"] {
+  background: rgba(43, 13, 68, 0.754);
+}
+select option[value="Gato"] {
+  background: rgba(43, 13, 68, 0.754);
+}
+select option[value="Cachorro"] {
+  background: rgba(43, 13, 68, 0.754);
+}
+select option[value="Femea"] {
+  background: rgba(43, 13, 68, 0.754);
+}
+select option[value="Macho"] {
+  background: rgba(43, 13, 68, 0.754);
+}
+select option[value="Meses"] {
+  background: rgba(43, 13, 68, 0.754);
+}
 
 .App-logo {
   height: 40vmin;
